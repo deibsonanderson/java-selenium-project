@@ -23,9 +23,6 @@ public abstract class SeleniumService {
 	 */
 	protected WebDriver initWebDriver(String uri) {
 
-		// System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
-		// WebDriver driver = new ChromeDriver();
-
 		System.setProperty("webdriver.gecko.driver", "C:\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 
